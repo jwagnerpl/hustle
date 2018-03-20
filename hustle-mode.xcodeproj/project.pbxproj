@@ -14,6 +14,7 @@
 		63A0B0F82061514400EA1E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A0B0F62061514400EA1E25 /* LaunchScreen.storyboard */; };
 		63A0B1032061514400EA1E25 /* hustle_modeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A0B1022061514400EA1E25 /* hustle_modeTests.swift */; };
 		63A0B10E2061514400EA1E25 /* hustle_modeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A0B10D2061514400EA1E25 /* hustle_modeUITests.swift */; };
+		63A0B11E2061541200EA1E25 /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63A0B11D2061541200EA1E25 /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		63A0B1092061514400EA1E25 /* hustle-modeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hustle-modeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A0B10D2061514400EA1E25 /* hustle_modeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hustle_modeUITests.swift; sourceTree = "<group>"; };
 		63A0B10F2061514400EA1E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A0B11D2061541200EA1E25 /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		63A0B0EC2061514400EA1E25 /* hustle-mode */ = {
 			isa = PBXGroup;
 			children = (
+				63A0B11D2061541200EA1E25 /* hustle-on.wav */,
 				63A0B0ED2061514400EA1E25 /* AppDelegate.swift */,
 				63A0B0EF2061514400EA1E25 /* ViewController.swift */,
 				63A0B0F12061514400EA1E25 /* Main.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A0B11E2061541200EA1E25 /* hustle-on.wav in Resources */,
 				63A0B0F82061514400EA1E25 /* LaunchScreen.storyboard in Resources */,
 				63A0B0F52061514400EA1E25 /* Assets.xcassets in Resources */,
 				63A0B0F32061514400EA1E25 /* Main.storyboard in Resources */,
@@ -427,6 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "hustle-mode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.sitespecific.hustle-mode";
@@ -441,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "hustle-mode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.sitespecific.hustle-mode";
